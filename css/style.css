@@ -1,0 +1,153 @@
+section{
+    background-color: #1e202b;
+    min-height:100vh;
+ 
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+
+border: 1px solid #009ad8;
+color:  #009ad8 !important;
+}
+
+.nav-link{
+    transition: all 1s;
+}
+
+
+
+.nav-link:hover {
+    border: 1px solid #009ad8;
+    color: #009ad8 !important;
+
+}
+
+
+.header-img{
+background-image: url(../images/banner.png);
+background-size: cover;
+
+padding:70px;
+}
+
+
+input::placeholder{
+    color: white !important;
+}
+
+
+
+
+
+
+.form-control{
+    background-color:#1e202b !important ;
+    padding: 20px 50px 20px 20px;
+    border-color: transparent;
+    color: white !important;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: transparent;
+}
+
+
+#submit{
+    border: 2px solid  #009ad8;
+    background-color: #009ad8;
+    color: white;
+   top:10px;
+   right: 10px;
+
+}
+
+
+
+
+.currentDay{
+    background-color:#323544;
+}
+.nextDay{
+    background-color: #262936;
+}
+
+.currentDay i,span{
+    color: #bfc1c8;
+}
+
+.condition{
+    color: #009ad8;
+}
+
+.city{
+    color: #bfc1c8;
+}
+
+
+
+.header{
+    color: #bfc1c8;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#currentTemp{
+    font-size: 80px;
+    color: white;
+}
+
+
+
+
+.nextDayName{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #bfc1c8; 
+}
+
+
+
+.maxTemp, .minTemp{
+    color: #bfc1c8; 
+    text-align: center;
+}
+
+
+footer{
+    background-color: #262936;
+}
+
+
+#subscribe{
+    border: 2px solid  #009ad8;
+    background-color: #009ad8;
+    color: white;
+   top:10px;
+   right: 10px;
+}
+
+.icons{
+    border: 1px solid transparent;
+    background-color: #1e202b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #009ad8;
+}
+
+
+.icons:hover{
+    background-color: #009ad8;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
