@@ -22,7 +22,7 @@ let searchCity=document.getElementById("searchCity")
 
 
 async function weatherApi(city){
-let api=await fetch(`http://api.weatherapi.com/v1/forecast.json?key=2091499dfabe41ae88a02819232202&q=${city}&days=6`)
+let api=await fetch(`http://api.weatherapi.com/v1/forecast.json?key=2091499dfabe41ae88a02819232202&q=${city}&days=7`)
    let response=await api.json()
      displayCurrentWeather(response)
      displayNextWeather(response)
